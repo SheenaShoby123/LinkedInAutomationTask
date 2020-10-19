@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LinkedIn Test automtion regression suite" verbose="4">
+<parameter name="browser" value="chrome"></parameter>
+	
+	<test name="LinkedIn Feature Testing - Login">
+		<classes>
+			<class name="com.qa.linkedIn.tests.LoginPageTest" />
+		</classes>	
+	</test>
+	
+	<test name="LinkedIn Feature Testing - Home">
+		<classes>
+			<class name="com.qa.linkedIn.tests.HomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="LinkedIn Feature Testing - Searched User Profile">
+		<classes>
+			<class name="com.qa.linkedIn.tests.SearchedUserProfilePageTest" />
+		</classes>
+	</test>
+		
+</suite>
